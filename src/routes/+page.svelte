@@ -79,6 +79,16 @@
 </script>
 
 <svelte:head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BV2TQVSY5H"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-BV2TQVSY5H');
+	</script>
 	<!-- Primary Meta Tags -->
 	<title>Beaconite - Visual Bookmarking like never before</title>
 	<meta name="title" content="Beaconite - Visual Bookmarking like never before" />
